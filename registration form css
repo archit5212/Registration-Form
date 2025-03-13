@@ -1,0 +1,46 @@
+In this file you will get css codes registration form
+👇
+body{
+    background:url(dark.jpg)repeat;
+    background-size: cover;
+    color: rgb(232, 235, 237);
+}
+
+.Registration-Form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    width: 300px;
+    
+}
+.Registration-Form h2{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.Registration-Form p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.Registration-Form input{
+    font-size: 12px;
+    padding: 10px 15px;
+    width: 100%;
+    border: 0;
+    border-radius: 12px;
+    outline: black;
+}
+.Registration-Form button ::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background: white;
+    transition: 0.5s;
+}
+.Registration-Form footer{
+    color: white;
+    font-display: 12px;
+}
